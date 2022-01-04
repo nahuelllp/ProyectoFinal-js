@@ -47,6 +47,6 @@ imagenEspacio14.innerHTML += `
 `
 
 imagenEspacio15.innerHTML += `
-    <img src="../Assets/img/tierraimg8.png" alt="Atardecer en Hawaii" class="tierra__imagenes">
+    <img src="../assets/img/tierraimg8.png" alt="Atardecer en Hawaii" class="tierra__imagenes">
     <h6 style="width: 500px;" class="tierra__imagenes--texto3">Puesta de sol a lo largo de la costa en Keāhole Point en Big Island, Hawaii.</h6>
 `
