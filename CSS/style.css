@@ -1,0 +1,381 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* CSS NAV GENERAL */
+.navbar{
+	height: 75px;
+}
+  
+.nav-item{
+	padding-right: 40px;
+	font-size: 20px;
+	background: white;
+	font-weight: 800;
+}
+
+.dropdown-item{
+	font-size: 20px;
+	font-weight: 800;
+}
+  
+.navbar-brand{
+	padding-left: 75px;
+}
+  
+.tituloNav{
+	padding-top: 20px;
+}
+
+
+
+/* CSS FOOTER GENERAL */
+.footer{
+	background-color: #DCF7FB;
+	height: auto;
+}
+
+.footer__nav{
+	margin: auto;
+}
+
+.footer__nav a{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+
+.footer__titulo{
+	margin: auto;
+}
+
+.footer__redes{
+	margin: auto;
+}
+
+.footer__copy{
+	background-color: #626262;
+	height: 45px;
+}
+
+.footer__copy--texto{
+	color: rgb(46, 19, 19);
+	margin-top: 10px;
+}
+  
+.icono1{
+	position: absolute;
+}
+  
+.icono2{
+	position: absolute;
+	padding-left: 50px;
+}
+  
+.icono3{
+	padding-top: 50px;
+}
+  
+.icono4 {
+	padding-top: 50px;
+}
+
+
+
+/* CSS INDEX */
+.backgroundGif{
+	background-image: url(../assets/img/universe-stars.gif);
+	height: 1000px;
+	background-size: cover;
+}
+  
+.subtitulo{
+	color: white;
+	font-size: 55px;
+	padding-left: 660px;
+	padding-top: 350px;
+}
+
+.subtitulo__secundario{
+	color: white;
+	font-size: 55px;
+	padding-left: 660px;
+	padding-top: 100px;
+}
+
+
+/* CSS SOBRE NOSOTROS */
+.nosotros__background{
+	background-image: url(../assets/img/fondonosotros.png);
+	height: 1160px;
+	background-size: cover;
+}
+
+.nosotros__titulo{
+	color: #E2E2D8;
+	text-shadow: #d00c46 0 3px;
+	font-size: 45px;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	font-weight: 800;
+}
+
+.nosotros__descrip--texto{
+	max-width: 600px;
+	margin-left: 250px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: white;
+}
+
+.nosotros__paso1--texto{
+	max-width: 600px;
+	margin-left: 1050px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: white;
+}
+
+.nosotros__paso2--texto{
+	max-width: 600px;
+	margin-left: 250px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: white;
+}
+
+.nosotros__paso3--texto{
+	max-width: 600px;
+	margin-left: 1050px;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: white;
+}
+  
+.nosotros__pie{
+	text-align: center;
+}
+
+.nosotros__pie--texto{
+	color: red;
+	font-size: 30px;
+	padding-top: 25px;
+}
+
+/* CSS ESPACIO */
+.background__espacio{
+	background: linear-gradient(darkgrey, grey, black);
+}
+
+.espacio__titulo{
+	color: black;
+	font-size: 50px;
+	font-weight: 800;
+	margin: 25px 0px 25px 0px;
+}
+
+.width__img{
+    width: 500px;
+}
+
+.espacio__imagenes:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.espacio__imagenes--texto{
+    background-color: white;
+    max-width: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.espacio__imagenes--texto{
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.espacio__imagenes--texto2{
+	margin: auto;
+	background-color: white;
+	max-width: 1079px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+
+
+/* CSS TIERRA */
+.background__tierra{
+	background: linear-gradient(darkgrey, grey, #7FECE3, #F2A851);
+}
+
+.tierra__titulo{
+	color: black;
+	font-size: 50px;
+	font-weight: 800;
+	margin: 25px 0px 25px 0px;
+}
+
+.tierra__imagenes:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.tierra__imagenes--texto{
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.tierra__imagenes2:hover{
+	transform: scale(1.05);
+	transition: 1s;
+}
+
+.tierra__imagenes--texto3{
+	margin: auto;
+	background-color: white;
+	width: 1100px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+
+/* CSS CONTACTO */
+.background__contacto{
+	background: linear-gradient(#d4ecdd, #345b63);
+}
+
+.contacto__titulo{
+	color: black;
+	font-size: 45px;
+	font-weight: 800;
+	margin-top: 120px;
+}
+  
+.contacto__titulo2{
+	color: black;
+	font-size: 45px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+
+.formulario__contacto{
+	color: black;
+}
+
+.texto__contacto{
+	color: black;
+	text-align: justify;
+}
+
+.contacto__subtitulo{
+	color: #1D1DE5;
+	font-size: 35px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.facebook__icono{
+	position: absolute;
+}
+
+.facebook__icono--texto{
+	color: black;
+	margin-top: 10px;
+	margin-left: 225px;
+	font-size: 23px;
+}
+
+.instagram__icono{
+	position: absolute;
+}
+
+.instagram__icono--texto{
+	color: black;
+	margin-top: 10px;
+	margin-left: 235px;
+	font-size: 23px;
+}
+
+.twitter__icono{
+	position: absolute;
+	margin-top: 10px;
+}
+
+.twitter__icono--texto{
+	color: black;
+	margin-top: 20px;
+	margin-left: 230px;
+	font-size: 23px;
+}
+  
+.gmail__icono{
+	position: absolute;
+	margin-top: 10px;
+}
+
+.gmail__icono--texto{
+	color: black;
+	margin-top: 20px;
+	margin-left: 380px;
+	font-size: 23px;
+}
+
+.contacto__instrucciones{
+	color: black;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/* CSS TIENDA */
+.botonTienda{
+	width: 75px;
+}
+
+.tarjeta__tienda{
+    margin: auto;
+}
+
+.titulo__tienda{
+	font-size: 45px;
+	color: brown;
+	margin: 15px 0px;
+}
+
+.tienda__texto{
+	color: black;
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+.tabla__texto{
+	color: black;
+}

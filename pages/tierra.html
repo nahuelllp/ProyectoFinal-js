@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- CSS ANIMATE -->
+	<link rel="stylesheet" href="../CSS/animate.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://bootswatch.com/5/minty/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container-fluid background__tierra"> <!-- inicio container -->
+
+        <div class="row"> <!-- inicio row 1 -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/img/icono.saturno.png" alt="logo">
+                  </a>
+                  <p class="tituloNav">GALAXY BLOG</p>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="SobreNosotros.html">Sobre nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="espacio.html">Fotos del espacio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Fotos de la tierra</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contacto 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item text-center" href="contacto.html">Contacto</a></li>
+                          <li><a class="dropdown-item text-center" href="tienda.html">Tienda</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div> <!-- cierre row 1 -->
+
+        <div class="row"> <!-- inicio row 2 -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/img/carouselTierra1.png" class="d-block w-100" alt="Vía lactea bortle 4">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>¡Destacada de la semana!</p>
+                      <p>Bluebonnets de Texas</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/carouselTierra2.png" class="d-block w-100" alt="Meteoro y estrellas">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>¡Destacada de la semana!</p>
+                      <p>Suculentas del desierto mirando hacia México</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/carouselTierra3.png" class="d-block w-100" alt="Sadr and Deneb">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>¡Destacada de la semana!</p>
+                      <p>Me perdí por completo en este bosque, Madeira, Portugal</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div> <!-- cierre row 2 -->
+        
+        <div class="row"> <!-- inicio row 3 -->
+            <div class="col-lg-12">
+                <h2 class="tierra__titulo text-center">FOTOS DE LA TIERRA DE LA SEMANA</h2>
+            </div>
+        </div> <!-- cierre row 3 -->
+
+        <div class="row"> <!-- inicio row 4 -->
+            <div class="col-lg-6 text-center" id="imagenTierra1"></div>
+            <div class="col-lg-6 text-center" id="imagenTierra2"></div>
+        </div> <!-- cierre row 4 -->
+
+        <div class="row"> <!-- inicio row 5 -->
+            <div class="col-lg-4 text-center" id="imagenTierra3"></div>
+            <div class="col-lg-4 text-center" id="imagenTierra4"></div>
+            <div class="col-lg-4 text-center" id="imagenTierra5"></div>
+        </div> <!-- cierre row 4 -->
+
+        <div class="row"> <!-- inicio row 6 -->
+            <div class="col-lg-6 text-center" id="imagenTierra6"></div>
+            <div class="col-lg-6 text-center" id="imagenTierra7"></div>
+        </div> <!-- cierre row 6 -->
+
+        <div class="row"> <!-- inicio row 7 -->
+            <div class="col-lg-12 text-center" id="imagenTierra8"></div>
+        </div> <!-- cierre row 7 -->
+
+        <div class="row footer"> <!-- inicio row 8 -->
+            <div class="col-lg-4 footer__nav text-center">
+        <a href="../index.html"><h5>Home</h5></a>
+				<a href="sobreNosotros.html"><h5>Sobre nosotros</h5></a>
+				<a href="espacio.html"><h5>Fotos del espacio</h5></a>
+				<a href="contacto.html"><h5>Contacto</h5></a>
+				<a href="tienda.html"><h5>Tienda</h5></a>
+			</div>
+			<div class="col-lg-4 footer__titulo text-center">
+				<h3>GALAXY BLOG</h3>
+				<img src="../assets/img/icono.saturno.png" alt="logo">
+			</div>
+			<div class="col-lg-4 footer__redes text-center">
+				<a href="#"><img src="../assets/img/insta.png" alt="IconoInstagram" class="icono1"></a>
+				<a href="#"><img src="../assets/img/face.png" alt="IconoFacebook" class="icono2"></a>
+				<a href="#"><img src="../assets/img/twitter.png" alt="IconoTwitter" class="icono3"></a>
+				<a href="#"><img src="../assets/img/gmail.png" alt="IconoGmail" class="icono4"></a>
+			</div>
+        </div> <!-- cierre row 8 -->
+
+        <div class="row footer__copy"> <!-- inicio row 9 -->
+            <div class="col-lg-12">
+              <h5 class="footer__copy--texto text-center">Design by Nahuel Pupilli © 2021</h5>
+            </div>
+          </div> <!-- cierre row 9 -->
+
+    </div> <!-- cierre container -->
+
+    <!-- SCRIPT WOW -->
+	<script src="../JS/wow.min.js"></script>
+	<script>new WOW().init();</script>
+    <!--script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- mi script -->
+    <script src="../JS/tierra.js"></script>
+    <script src="../JS/clases.js"></script>
+</body>
+</html>

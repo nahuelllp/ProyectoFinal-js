@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- CSS ANIMATE -->
+	<link rel="stylesheet" href="../CSS/animate.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://bootswatch.com/5/minty/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container-fluid background__contacto"> <!-- inicio container -->
+
+        <div class="row"> <!-- inicio row 1 -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/icono.saturno.png" alt="logo">
+                </a>
+                <p class="tituloNav">GALAXY BLOG</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SobreNosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="espacio.html">Fotos del espacio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tierra.html">Fotos de la tierra</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contacto 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item text-center" href="contacto.html">Contacto</a></li>
+                        <li><a class="dropdown-item text-center" href="#">Tienda</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button class="btn btn-primary botonTienda" id="botonCarrito"><i class="fas fa-shopping-cart"></i></button></a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div> <!-- cierre row 1 -->
+
+        <div class="row"> <!-- inicio row 2 -->
+            <div class="col-lg-12 text-center">
+                <h1 class="titulo__tienda wow bounceIn">Productos disponibles en este momento</h1>
+            </div>
+        </div> <!-- cierre row 2 -->
+
+        <div class="row" id="divProductos"> <!-- inicio row 3 -->
+        </div> <!-- cierre row 3 -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-center tienda__texto">Todas las compras de nuestros productos ayudan a mantener el blod día a día. Así como permitirnos mejorar el sitio en todos los aspectos ¡GRACIAS!</h3>
+            </div>
+        </div>
+
+        <div class="row"> <!-- inicio row 4 -->
+            <table id="table" class="table"></table>
+        </div> <!-- cierre row 4 -->
+
+        <div class="row footer"> <!-- inicio row 5 -->
+            <div class="col-lg-4 footer__nav text-center">
+                <a href="../index.html"><h5>Home</h5></a>
+				<a href="SobreNosotros.html"><h5>Sobre nosotros</h5></a>
+				<a href="espacio.html"><h5>Fotos del espacio</h5></a>
+				<a href="tierra.html"><h5>Fotos de la tierra</h5></a>
+				<a href="Contacto.html"><h5>Contacto</h5></a>
+			</div>
+			<div class="col-lg-4 footer__titulo text-center">
+				<h3>GALAXY BLOG</h3>
+				<img src="../assets/img/icono.saturno.png" alt="logo">
+			</div>
+			<div class="col-lg-4 footer__redes text-center">
+				<a href="#"><img src="../assets/img/insta.png" alt="IconoInstagram" class="icono1"></a>
+				<a href="#"><img src="../assets/img/face.png" alt="IconoFacebook" class="icono2"></a>
+				<a href="#"><img src="../assets/img/twitter.png" alt="IconoTwitter" class="icono3"></a>
+				<a href="#"><img src="../assets/img/gmail.png" alt="IconoGmail" class="icono4"></a>
+			</div>
+        </div> <!-- cierre row 5 -->
+
+        <div class="row footer__copy"> <!-- inicio row 6 -->
+            <div class="col-lg-12">
+              <h5 class="footer__copy--texto text-center">Design by Nahuel Pupilli © 2021</h5>
+            </div>
+          </div> <!-- cierre row 6 -->
+
+    </div> <!-- cierre container -->
+    <!-- SCRIPT WOW -->
+	<script src="../JS/wow.min.js"></script>
+	<script>new WOW().init();</script>
+    <!--script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- mis scripts -->
+    <script src="../JS/script.js"></script>
+    <script src="../JS/clases.js"></script>
+    
+</body>
+</html>

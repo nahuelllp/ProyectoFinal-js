@@ -1,0 +1,26 @@
+[
+    {
+        "imagen": "../assets/img/poster.png",
+        "nombre": "Poster Sistema Solar",
+        "descripcion": "Poster del sistema solar. Dimensiones: 60cm x 90cm.",
+        "precio": 2500
+    },
+    {
+        "imagen": "../assets/img/vinilo.png",
+        "nombre": "Vinilo del Sistema Solar",
+        "descripcion": "Vinilo impreso, decorativo. Dimensiones: 1,2m x 1,3m.",
+        "precio": 1100
+    },
+    {
+        "imagen": "../assets/img/llaveros.png",
+        "nombre": "Llaveros del espacio",
+        "descripcion": "Llaveros del espacio x3U (varios modelos).",
+        "precio": 500
+    },
+    {
+        "imagen": "../assets/img/proyector.png",
+        "nombre": "Velador Proyector",
+        "descripcion": "Proyector Led Estrellas Galaxia Starry Night.",
+        "precio": 8400
+    }
+]
